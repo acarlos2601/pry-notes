@@ -1,0 +1,11 @@
+.Wrapper {
+
+    box-sizing: border-box;
+    /* padding: 20px; */
+    /* justify-content: flex-start; */
+    height:'fit-content'
+  
+  }
+.Wrapper.center {
+    justify-content: center;
+}

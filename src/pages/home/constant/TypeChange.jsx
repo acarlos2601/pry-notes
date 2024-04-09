@@ -1,0 +1,6 @@
+export const TypeChange = Object.freeze({
+    CHANGE_STRETCH:'CHANGE_STRETCH',
+    CHANGE_LAYOUT:'CHANGE_LAYOUT',
+    CHANGE_COLOR:'CHANGE_COLOR',
+    CHANGE_THEME:'CHANGE_THEME',
+  })

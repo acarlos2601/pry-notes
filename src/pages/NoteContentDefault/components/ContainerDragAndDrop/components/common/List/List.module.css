@@ -1,0 +1,7 @@
+.List {
+    box-sizing: border-box;
+    padding-inline-start: 0px;
+    padding-bottom: 20px;
+    min-height: 200px;
+    transition: background-color 350ms ease;
+  }

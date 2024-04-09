@@ -1,0 +1,90 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+* {
+  transition: background-color 0.3s ease, color 0.1s ease;
+}
+
+body {
+  margin: 0;
+}
+
+.ant-card .ant-card-actions{
+  align-items: center;
+}
+
+.ant-card .ant-card-body{
+  height: calc(100% - 48.75px);
+  padding: 13px;
+}
+
+.card-meta-description {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-height: 8em; 
+}
+
+:root {
+  --background-color-transparent: rgba(223, 222, 222, 0.85); /* Un valor por defecto */
+  --backdrop-filter-blur: blur(10px);
+  --dark-content-bg: #1e1e1e; 
+  /* #141414 */
+}
+
+.ant-popover {
+  backdrop-filter: blur(10px);
+}
+
+.ant-popover-arrow::after,
+.ant-popover-inner,
+#headerHorizontal{
+  background-color: var(--background-color-transparent) !important; 
+  /* transition: background-color 0.5s ease; */
+}
+
+.ant-layout-content {
+  background-color: var(--dark-content-bg);
+}
+
+#menuHorizontal, #languageMenu{
+  background-color: #ffffff00; 
+}
+
+#languageMenu .ant-menu-item{
+  padding-inline:5px;
+}
+
+#languagePopover{
+  padding: 0;
+}
+
+.ant-layout-sider .ant-layout-sider-trigger {
+  margin-left: -1px;
+}
+
+.ant-layout-sider-dark, .ant-menu-dark {
+  background-color: rgb(20, 20, 20) !important;
+}
+
+.ant-layout-sider-trigger{
+ background-color: --dark-content-bg;
+}
+
+.note-grid-principal-container{
+  display: grid;
+  grid-template-columns: 1fr; /*1fr 1fr 1fr;*/
+  grid-template-rows: 1fr;/*1fr 1fr ;*/
+  height: 100%;
+}
+
+.card-meta-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* Número de líneas que deseas mostrar antes de cortar con 'ellipsis' */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
